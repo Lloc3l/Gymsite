@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
+}
+body{
+    background-image: url(image/gym.jpg);
+    background-size: cover;
+    font-family: "Audiowide", sans-serif;
+}
+header{
+    color: white;   
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+}
+nav{
+    display: flex;
+}
+.showcase{
+    color: White;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 60px;
+    margin: 60px;
+    width:450px;  
+    text-align: center;
+}
+.form-input input{
+    padding: 3px;
+    text-align: center;
+    width: 300px;
+    margin: 5px;
+}
+.submit{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: White;
+    width: 300px;
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid white;
+}
+.button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border: 1px solid white;
+    text-decoration: none;
+    margin: 2px;
+    font-size: small;
+}
+a:hover{
+    background-color: rgb(46, 45, 45, 0.5);
+}
+.fa-facebook {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+.fa-instagram {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+.fa-twitter {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+.fa-youtube {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+  }
+.icon{
+   display: flex;
+   justify-content:space-around;
+}
